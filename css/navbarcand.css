@@ -1,0 +1,23 @@
+.dropdown-menu-cand {
+    border-radius: 2px;
+    min-width: 108px;
+    padding: 0px;
+}
+.dropdown-menu-cand > li > a {
+    padding: 5px 10px;
+    color: #777;
+}
+.dropdown-menu-cand > li > a:hover {
+    color: #d95e0f;
+    background-color: white;
+}
+.invite-slogan{
+    text-align: center; color: #707070;
+}
+@media (min-width: 570px){
+.modal-dialog-invite {
+    width: 550px;
+    margin: 60px auto;
+}
+}
+

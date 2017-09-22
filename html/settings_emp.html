@@ -1,0 +1,319 @@
+<html>
+<head>
+  <title>settings</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' href='../css/bootstrap.min.css'> 
+  <link rel='stylesheet' href='../css/styles.css'>
+  <link rel='stylesheet' href='../css/font-awesome.min.css'>
+  <link rel='stylesheet' href='../css/settings.css'>
+</head>
+<body>
+  <nav class='navbar navbar-default navbar-fixed-top affix-top navbar-default-bgwhite'>
+    <div class='container-fluid'>
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class='navbar-header'>
+        <button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#candidate-menu'>
+          <span class='icon-bar'></span>
+          <span class='icon-bar'></span>
+          <span class='icon-bar'></span>
+        </button>
+        <a class='navbar-brand navbar-brand-orange' href='#'>JobApp</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class=' navbar-collapse collapse' id='candidate-menu'>
+        <ul class='nav navbar-nav navbar-nav-orange navbar-right'>
+          <li class='dropdown'>
+            <a href='#' class='dropdown-toggle' data-toggle='dropdown' >My Accout<span class='caret'></span></a>
+            <ul class='dropdown-menu dropdown-menu-cand'>
+              <li><a href='#'>Candidate List</a></li>
+              <li><a href='#'>Create Vacancy</a></li>
+              <li><a href='#'>Company Profile</a></li>
+              <li role='presentation' class='divider'></li>
+              <li><a href='#'>Settings</a></li>
+            </ul>
+          </li>
+          <li><a href='#'>Logout</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+<div class='container container-list'>
+<div class='row'>
+      <nav class='col-sm-3'>
+        <ul class='nav nav-pills  nav-stacked main'>
+          <li class='active'><a data-toggle='pill' href='#general'>Contact</a></li>
+          <li><a data-toggle='pill' href='#password'>Password</a></li>
+          <li><a data-toggle='pill' href='#notification'>Notification</a></li>
+          <li><a data-toggle='pill' href='#payment'>Payment Method</a></li>
+        </ul>
+      </nav>
+
+      <div class='col-sm-6  content tab-content tab-bg-white'>
+        <div class='tab-pane active' id='general'>
+          <h3>Contact</h3>
+          <hr>
+        <form class='form-horizontal' action='/action_page.php'>
+        <div class='form-group'>
+          <label class='control-label col-sm-4' for='email'>Company Name:</label>
+        <div class='col-sm-7'>
+           <div class='input-group'>
+             <h4>Microsoft</h4> 
+          </div>
+        </div>
+        </div>
+      
+      <div class='form-group'>
+      <label class='control-label col-sm-4' for='email'>Company Id:</label>
+      <div class='col-sm-7'>
+      
+        <div class='input-group'>
+           <h4>bob@microsoft.co</h4>  
+        </div>
+      </div>
+      </div>
+
+      <div class='form-group'>
+      <label class='control-label col-sm-4' for='email'>Contact Person:</label>
+      <div class='col-sm-7'>
+      
+        <div class='input-group'>
+           <input id='name' type='text' class='form-control' name='name' placeholder='Bob Jakson'>
+           <span class='input-group-addon'><i class='glyphicon glyphicon-pencil'></i></span>   
+        </div>
+      </div>
+      </div>
+
+      <div class='form-group'>
+      <label class='control-label col-sm-4' for='email'>Email:</label>
+      <div class='col-sm-7'>
+      
+        <div class='input-group'>
+           <input id='email' type='text' class='form-control' name='email' placeholder='bob@gmail.com'>
+           <span class='input-group-addon'><i class='glyphicon glyphicon-pencil'></i></span>   
+        </div>
+      </div>
+      </div>
+
+      <div class='form-group'>
+      <label class='control-label col-sm-4' for='email'>Phone:</label>
+      <div class='col-sm-7'>
+      
+        <div class='input-group'>
+           <input id='phone' type='text' class='form-control' name='phone' placeholder='+15512295818'>
+           <span class='input-group-addon'><i class='glyphicon glyphicon-pencil'></i></span>   
+        </div>
+      </div>
+      </div>
+
+      <div class='form-group'>
+      <label class='control-label col-sm-4' for='email'>Skype Id:</label>
+      <div class='col-sm-7'>
+      
+        <div class='input-group'>
+           <input id='email' type='text' class='form-control' name='email' placeholder='bob@gmail.com'>
+           <span class='input-group-addon'><i class='glyphicon glyphicon-pencil'></i></span>   
+        </div>
+      </div>
+      </div>
+
+      <div class='form-group'>        
+        <div class='col-sm-offset-8 col-sm-4 buttons'>
+          <button type='button' class='btn btn-default'>Cancel</button>
+          <button type='submit' class='btn btn-secondary '>Save</button>
+        </div>
+      </div>
+     </form>
+      </div><!-- /.tab-pane   -   'general' ends --> 
+    
+
+      <div class='tab-pane' id='password' >
+        <h3>Password</h3><hr>
+        <form class='form-horizontal' action='/action_page.php'>
+         <div class='form-group'>
+         <label class='control-label col-sm-4' for='password'>Old Password:</label>
+         <div class='col-sm-6'>
+         <input type='password' class='form-control' id='pwd' placeholder='Enter password' name='pwd'>
+         </div>
+         </div>
+      <div class='form-group'>
+         <label class='control-label col-sm-4' for='password'>New password:</label>
+         <div class='col-sm-6'>
+         <input type='password' class='form-control' id='pwd' placeholder='Enter password' name='pwd'>
+         </div>
+      </div>
+      <div class='form-group'>
+        <label class='control-label col-sm-4' for='password'>Confirm Password:</label>
+        <div class='col-sm-6'>
+        <input type='password' class='form-control' id='pwd' placeholder='Enter password' name='pwd'>
+        </div>
+      </div>
+      <div class='form-group'>        
+      <div class='col-sm-offset-8 col-sm-4 buttons'>
+        <button type='button' class='btn btn-default'>Cancel</button>
+        <button type='submit' class='btn btn-secondary'>Save</button>
+      </div>
+      </div>
+      </form>
+    </div><!-- /.tab-pane   -   'password' ends -->
+
+
+    <div class='tab-pane' id='notification' >
+          <h3>Notification</h3><hr>
+          <p>You're currently recieving notification at ran@gmail.com</p>
+          <p>Get email notifications</p>
+      <form class='form-horizontal' action='/action_page.php'>
+        <div class='form-group'>
+         <div class='col-sm-8'>
+         <p><b>Post expiring jobs soon:</b></p>
+         </div>
+         <div class='col-sm-3'>
+         <label class='switch'>
+         <input type='checkbox'>
+         <span class='slider round'></span>
+         </label>
+         </div>
+         
+         <div class='col-sm-8'>
+         <p><b>New message from hiring managers:</b></p>
+         </div>
+         <div class='col-sm-3'>
+         <label class='switch'>
+         <input type='checkbox' >
+         <span class='slider round'></span>
+         </label>
+         </div>
+        </div>
+      <div class='form-group' >        
+      <div class='col-sm-offset-8 col-sm-4 buttons' >
+        <button type='button' class='btn btn-default'>Cancel</button>
+        <button type='submit' class='btn btn-secondary'>Save</button>
+      </div>
+      </div>
+    </form>  
+    </div><!-- /.tab-pane   -   'notification' ends -->
+
+    <div class='tab-pane' id='payment'>
+      <h3>Payment Method</h3><hr>
+      <p>Your credit and debit cards</p>
+      <div class='row'>
+        <div class='col-xs-12 col-md-8'>
+          <div class='panel panel-default'>
+            <div class='panel-heading'>
+              <h3 class='panel-title'>Payment Details</h3>
+            <div class='checkbox pull-right'>
+              <label><input type='checkbox'/>Remember</label>
+            </div>
+            </div>
+          <div class='panel-body'>
+            <form role='form'>
+            <div class='form-group'>
+              <label for='cardNumber'>CARD NUMBER</label>
+                <div class='input-group'>
+                <input type='text' class='form-control' id='cardNumber' placeholder='Valid Card Number' required autofocus />
+                <span class='input-group-addon'><span class='glyphicon glyphicon-lock'></span></span>
+                </div>
+            </div>
+          <div class='row'>
+            <div class='col-xs-7 col-md-7'>
+            <div class='form-group'>
+              <label for='expityMonth'>EXPIRY DATE</label>
+            <div class='col-xs-6 col-lg-6 pl-ziro'>
+              <input type='text' class='form-control' id='expityMonth' placeholder='MM' required />
+            </div>
+            <div class='col-xs-6 col-lg-6 pl-ziro'>
+              <input type='text' class='form-control' id='expityYear' placeholder='YY' required />
+            </div>
+            </div>
+            </div>
+            <div class='col-xs-5 col-md-5 pull-right'>
+            <div class='form-group'>
+              <label for='cvCode'>CV CODE</label>
+              <input type='password' class='form-control' id='cvCode' placeholder='CV' required />
+            </div>
+            </div>
+          </div>
+          </form>
+        </div>
+        </div>
+          <ul class='nav nav-pills nav-stacked'>
+            <li class='active'><a href='#'><span class='badge pull-right'><span class='glyphicon glyphicon-usd'></span></span> Final Payment</a>
+            </li>
+            </ul>
+            <div class='pay' >
+            <a href='#' class='btn btn-success btn-lg btn-block'  role='button'>Pay</a></div>
+        </div>
+        </div>
+      </div><!-- /.tab-pane   -   payment ends -->
+
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--      /.  refer friends pop up window     -->
+  <div class='modal fade' id='referral' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>
+    <div class='modal-dialog modal-dialog-compressed  modal-dialog-invite' role='document'>
+      <div class='modal-content'>
+
+        <div class='modal-header modal-header-without-border '>
+          <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+            <span aria-hidden='true'>&times;</span>
+          </button>
+        </div>
+
+
+        <div class='modal-body'>
+          <div class='row'>
+            <h3 class='invite-slogan'>Invite a friend to JobApp </h3>
+            <h3 class='invite-slogan'>Earn <strong style='font-size: 30px; color: #d95e0f;'> $1000 </strong>when they get a job!</h3>
+          </div>
+
+          <div class='row'>
+            <form class='form-invite'>
+              <div class='form-row'>
+                <div class='form-group col-sm-6'>
+                  <input type='firstname' class='form-control' id='inputFirstName' placeholder='First Name'>
+                </div>
+                <div class='form-group col-sm-6'>
+                  <input type='lastname' class='form-control' id='inputLastName' placeholder='Last Name'>
+                </div>
+              </div>
+              <div class='form-row'>
+                <div class='form-group form-group-padding col-sm-12'>
+                  <input type='emailaddress' class='form-control' id='inputEmail' placeholder='Email'>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div><!-- /.modal-body end -->
+
+        <div class='modal-footer modal-footer-without-border'>
+          <button type='button' class='btn btn-primary btn-orange center-block'>Share</button> 
+        </div>
+        
+      </div><!-- /.modal-content -->
+    </div>
+  </div>
+
+
+
+<script src='../js/jquery-3.2.1.js'></script>
+<script src='../js/bootstrap.js'></script>
+</body> 
+</html>

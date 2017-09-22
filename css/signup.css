@@ -1,0 +1,86 @@
+.blue-gradient {
+    background: url(http://www.expertaktiv.ro/wp-content/uploads/2017/05/cBVhAwq.jpg);
+}
+.signup-window {
+	margin: 0 10px;
+}
+.signup-window .row h4 {
+    text-align: center; 
+    color: #707070;
+}
+.signup-window button {
+    margin-bottom: 20px; 
+}
+.nav-tab-margin {
+    margin: 10px auto 0 auto;
+    width: fit-content;
+}
+.nav-tab-margin>li.active>a, .nav-tab-margin>li.active>a:hover, .nav-tab-margin>li.active>a:focus {
+    color: #d95e0f;
+    border: none;
+}
+.nav-tab-margin>li>a {
+    color: #fff;
+    margin: 0 2px;
+    padding: 10px 25px;
+    border: none;
+}
+.nav-tab-margin>li>a:hover {
+    background-color: #d95e0f;
+    border:none;
+}
+.nav-tabs-signup {
+    border-bottom: 1px solid rgba(221, 221, 221, 0);
+}
+.signup-footer {
+    text-align: center;
+    border-top: 1px solid #ddd;
+    padding: 20px;
+    margin: 0px 25px;
+}
+.signup-footer > li {
+	display: inline;
+	padding-left: 5px;
+}
+.signup-footer > li > a {
+	font-size: 12px;
+    text-decoration: none;
+}
+.form-signup {
+    padding-top: 10px;
+    max-width: 280px;
+    margin: 10px auto;
+}
+.col-form-label {
+	font-size: 12px;
+}
+.agree-to-terms {
+    font-size: 12px;
+    font-weight: normal;
+}
+@media (min-width: 768px){
+.form-signup {
+    padding-top: 10px;
+    max-width: 350px;
+    margin: 10px auto;
+}
+}
+@media (min-width: 640px){
+.signup-window {
+    width: 600px;
+    margin: 0 auto;
+}
+}
+
+@media (min-width: 520px){
+.modal-dialog-signin {
+    width: 400px;
+    margin: 60px auto;
+}
+.signup-window .row h4 {
+	font-size: 24px;
+}
+.form-signin {
+	margin: 20px auto;
+}
+}

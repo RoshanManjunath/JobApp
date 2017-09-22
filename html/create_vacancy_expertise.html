@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' href='../css/bootstrap.min.css'> 
+  <link rel='stylesheet' href='../css/font-awesome.min.css'>
+  <link rel='stylesheet' href='../css/bootstrap-toggle.min.css'>
+  <link rel='stylesheet' href='../css/styles.css'> 
+  <title>create vacancy</title>
+</head>
+<body class='blue-gradient'>
+  <nav class='navbar navbar-default navbar-fixed-top affix-top navbar-default-bgwhite'>
+    <div class='container-fluid'>
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class='navbar-header'>
+        <button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#candidate-menu'>
+          <span class='icon-bar'></span>
+          <span class='icon-bar'></span>
+          <span class='icon-bar'></span>
+        </button>
+        <a class='navbar-brand navbar-brand-orange' href='#'>JobApp</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class=' navbar-collapse collapse' id='candidate-menu'>
+        <ul class='nav navbar-nav navbar-nav-orange navbar-right'>
+          <li class='dropdown'>
+            <a href='#' class='dropdown-toggle' data-toggle='dropdown'>My Accout<span class='caret'></span></a>
+            <ul class='dropdown-menu dropdown-menu-cand'>
+              <li><a href='#'>Candidate List</a></li>
+              <li><a href='#'>Create Vacancy</a></li>
+              <li><a href='#'>Company Profile</a></li>
+              <li role='presentation' class='divider'></li>
+              <li><a href='#'>Settings</a></li>
+            </ul>
+          </li>
+          <li><a href='#'>Logout</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
+<!-- ./  thank you  -->
+<div class='container container-list'>
+
+<!-- ./  progress bar here !!  -->
+<!-- ./  progress bar here !!  -->
+<!-- ./  progress bar here !!  -->
+<!-- ./  progress bar here !!  -->
+
+  <div class='box-with-shadow createvacancy-box'>
+    <h3>Expertise</h3>
+    <p>The information below will be visible to candidates.</p>
+    <hr class='my-4'/>
+
+<!-- ./  Top skills section !!  -->
+    <div class='selectbox'>
+      <h5>Top Six Skills Required</h5>
+      <div class='input-group col-sm-12'>
+        <input id='topSkills' type='text' class='form-control' name='topSkills' placeholder='' />
+        <span class='input-group-addon' type='button'>Add</span>
+      </div>
+
+      <div class='row'>
+        <div class='col-xs-5'>
+          <h5>Top Skills</h5>
+        </div>
+        <div class='col-xs-7'>
+          <h5>Years of Experience Required</h5>
+        </div>
+      </div>
+
+      <div class='row'>
+        <div class='col-xs-5'>
+          <div>
+            <input class='btn btn-info btn-sm' type='button' value='Java' />
+          </div>
+        </div>
+        <div class='col-xs-7 hidden-dropdown-sm'>
+          <div class='col-for-5tags padding-right-5px'>
+            <input class='btn btn-info btn-sm btn-fixed-width' type='button' value='0-1' />
+          </div>
+          <div class='col-for-5tags padding-right-5px '>
+            <input class='btn btn-info btn-sm btn-fixed-width' type='button' value='1-2' />
+          </div>
+          <div class='col-for-5tags padding-right-5px '>
+            <input class='btn btn-info btn-sm btn-fixed-width' type='button' value='2-4' />
+          </div>
+          <div class='col-for-5tags padding-right-5px '>
+            <input class='btn btn-info btn-sm btn-fixed-width' type='button' value='4-6' />
+          </div>
+          <div class='col-for-5tags padding-right-5px '>
+            <input class='btn btn-info btn-sm btn-fixed-width' type='button' value='6+' />
+          </div>
+        </div>
+        <div class='col-xs-4 hidden-dropdown-lg'>
+          <select class='form-control form-control-sm'>
+            <option>0 - 1</option>
+            <option>1 - 2</option>
+            <option>2 - 4</option>
+            <option>4 - 6</option>
+            <option>6 +</option>
+          </select>
+        </div>
+      </div>
+
+      <div class='row'>
+        <div class='col-xs-5'>
+          <div>
+            <input class='btn btn-info btn-sm' type='button' value='Collaborative Filtering'/ >
+          </div>
+        </div>
+        <div class='col-xs-7 hidden-dropdown-sm'>
+          <div class='col-for-5tags padding-right-5px'>
+            <input class='btn btn-info btn-sm btn-fixed-width' type='button' value='0-1' />
+          </div>
+          <div class='col-for-5tags padding-right-5px '>
+            <input class='btn btn-info btn-sm btn-fixed-width' type='button' value='1-2' />
+          </div>
+          <div class='col-for-5tags padding-right-5px '>
+            <input class='btn btn-info btn-sm btn-fixed-width' type='button' value='2-4' />
+          </div>
+          <div class='col-for-5tags padding-right-5px '>
+            <input class='btn btn-info btn-sm btn-fixed-width' type='button' value='4-6' />
+          </div>
+          <div class='col-for-5tags padding-right-5px '>
+            <input class='btn btn-info btn-sm btn-fixed-width' type='button' value='6+' />
+          </div>
+        </div>
+        <div class='col-xs-4 hidden-dropdown-lg'>
+          <select class='form-control form-control-sm'>
+            <option>0 - 1</option>
+            <option>1 - 2</option>
+            <option>2 - 4</option>
+            <option>4 - 6</option>
+            <option>6 +</option>
+          </select>
+        </div>
+      </div>
+
+    </div><!-- ./  'top six skills' ends here !!  -->
+
+
+
+<!-- ./  Other skills section starts from here !!  -->
+    <div class='selectbox'>
+      <h5>Other Skills Required </h5>
+      <div class='input-group col-sm-12'>
+        <input id='otherSkills' type='text' class='form-control' name='otherSkills' placeholder=''/>
+        <span class='input-group-addon' type='button'>Add</span>
+      </div>
+      <div class='row '>
+        <div class='col-xs-5'>
+          <h5>Other Skills</h5>
+        </div>
+        <div class='col-xs-7'>
+          <h5>Years of Experience Required</h5>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='col-xs-5'>
+          <div>
+            <input class='btn btn-info btn-sm' type='button' value='Java' />
+          </div>
+        </div>
+        <div class='col-xs-7 hidden-dropdown-sm'>
+          <div class='col-for-5tags padding-right-5px'>
+            <input class='btn btn-info btn-sm btn-fixed-width' type='button' value='0-1' />
+          </div>
+          <div class='col-for-5tags padding-right-5px '>
+            <input class='btn btn-info btn-sm btn-fixed-width' type='button' value='1-2' />
+          </div>
+          <div class='col-for-5tags padding-right-5px '>
+            <input class='btn btn-info btn-sm btn-fixed-width' type='button' value='2-4' />
+          </div>
+          <div class='col-for-5tags padding-right-5px '>
+            <input class='btn btn-info btn-sm btn-fixed-width' type='button' value='4-6' />
+          </div>
+          <div class='col-for-5tags padding-right-5px '>
+            <input class='btn btn-info btn-sm btn-fixed-width' type='button' value='6+' />
+          </div>
+        </div>
+        <div class='col-xs-4 hidden-dropdown-lg'>
+          <select class='form-control form-control-sm'>
+            <option>0 - 1</option>
+            <option>1 - 2</option>
+            <option>2 - 4</option>
+            <option>4 - 6</option>
+            <option>6 +</option>
+          </select>
+        </div>
+      </div>
+    </div><!-- ./  'Other skills' ends here !!  -->
+
+<!-- ./  Select education section starts here !!  -->
+    <div class='selectbox clearfix'>
+      <h5>What is the minimum level of education required?</h5>
+      <div class='col-xs-4 padding-right-5px'>
+        <input class='btn btn-info btn-sm btn-fixed-width' type='button' value='Undergraduate'/>
+      </div>
+      <div class='col-xs-4 padding-right-5px'>
+        <input class='btn btn-info btn-sm btn-fixed-width' type='button' value='Masters' />
+      </div>
+      <div class='col-xs-4 padding-right-5px '>
+        <input class='btn btn-info btn-sm btn-fixed-width' type='button' value='PhD' />
+      </div>
+    </div>
+
+
+<!-- ./  footer !!  -->    
+    <hr class='my-4'/>
+    <ul class='pager'>
+      <li class='previous'><a href='create_vacancy_basic.html'>Back</a></li>
+      <li class='next'><a href='create_vacancy_fit.html'>Save</a></li>
+    </ul>
+
+
+  </div>
+</div>
+
+
+<script src='../js/jquery-3.2.1.js'></script>
+<script src='../js/bootstrap-toggle.min.js'></script>
+<script src='../js/bootstrap.js'></script>
+</body> 
+</html>

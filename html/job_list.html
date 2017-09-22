@@ -1,0 +1,400 @@
+<html>
+<head>
+  <title>job list</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' href='../css/bootstrap.min.css'> 
+  <link rel='stylesheet' href='../css/styles.css'>
+  <link rel='stylesheet' href='../css/joblist.css'>
+  <link rel='stylesheet' href='../css/font-awesome.min.css'>
+</head>
+<body>
+  <nav class='navbar navbar-default navbar-fixed-top affix-top navbar-default-bgwhite'>
+    <div class='container-fluid'>
+
+      <div class='navbar-header'>
+        <button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#candidate-menu'>
+          <span class='icon-bar'></span>
+          <span class='icon-bar'></span>
+          <span class='icon-bar'></span>
+        </button>
+        <a class='navbar-brand navbar-brand-orange' href='#'>JobApp</a>
+      </div>
+
+      <div class=' navbar-collapse collapse' id='candidate-menu'>
+        <ul class='nav navbar-nav navbar-nav-orange navbar-right'>
+          <li class='active'><a href='#'>Jobs</a></li>
+          <li><a href='#' data-toggle='modal' data-target='#referral'>Refer Friends</a></li>
+          <li class='dropdown'>
+            <a href='#' class='dropdown-toggle' data-toggle='dropdown'>My Accout<span class='caret'></span></a>
+            <ul class='dropdown-menu dropdown-menu-cand'>
+              <li><a href='#'>View Profile</a></li>
+              <li><a href='#'>Settings</a></li>
+            </ul>
+          </li>
+          <li><a href='#'>Logout</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
+
+
+
+
+
+<!-- /.container-fluid -->
+  <div class='container container-list'>
+
+    <div class='row '>
+      <nav class='col-sm-2'>
+        <ul class='nav nav-pills nav-stacked'>
+          <li class='active'><a data-toggle='pill' href='#newjobs'>New<span class='badge'>1</span></a></li>
+          <li><a data-toggle='pill' href='#appliedjobs'>Applied</a></li>
+          <li><a data-toggle='pill' href='#rejectedjobs'>Rejected<span class='badge'>1</span></a></li>
+          <li><a data-toggle='pill' href='#skippedjobs'>Skipped</a></li>
+        </ul>
+      </nav>
+
+
+
+
+
+
+
+
+      <div class='col-sm-10 tab-content'>
+<!-- /.new jobs list-->
+        <div class='tab-pane active' id='newjobs' >
+          <a href='#' class='list-group-item clearfix' >
+            
+            <div class='joblist-pic'>
+              <img alt='' src='../images/2sigma.png'>
+            </div>
+            <div class='joblist-content'>
+              <div class='joblist-header'>
+                <button class='btn btn-default'>No, thanks.</button>
+                <button class='btn btn-primary'>Apply</button>
+                <h5>Entry Level Data Scientist</h5>
+                <small>Two Sigma</small>
+                <br/>
+                <small>Est. Salary $125,000 - $177,000</small>
+              </div>
+
+              <div class='joblist-tag-row'>
+                <div class='joblist-tag' >
+                  <i id='icons' class='fa fa-fw joblist-icon fa-map-marker'></i>Cambridge, MA
+                </div>
+              </div>
+
+            </div>
+          </a>
+        </div>
+
+
+
+
+
+
+
+
+
+<!-- /.applied jobs list-->
+        <div class='tab-pane' id='appliedjobs'>
+          <div class='list-group'>
+            <a href='#' class='list-group-item clearfix' >
+              
+              <div class='joblist-pic'>
+                <img alt='' src='../images/2sigma.png'>
+              </div>
+              <div class='joblist-content'>
+                <div class='joblist-header'>
+                  <button class='btn btn-default'>Pending</button>
+                  <h5>Entry Level Data Scientist</h5>
+                  <small>Two Sigma</small>
+                  <br/>
+                  <small>Est. Salary $125,000 - $177,000</small>
+                </div>
+
+                <div class='joblist-tag-row'>
+                  <div class='joblist-tag' >
+                    <i id='icons' class='fa fa-fw joblist-icon fa-map-marker'></i>Cambridge, MA
+                  </div>
+                  <div class='joblist-tag'>
+                    <i id='icons' class='fa fa-fw joblist-icon fa-calendar'></i>Applied on May 17
+                  </div>
+                  <div class='joblist-tag'>
+                    <i id='icons' class='fa fa-fw joblist-icon fa-ban'></i>Expires in 23 days
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href='#' class='list-group-item  clearfix' >
+              
+              <div class='progress joblist-progress'>
+                <div class='progress-bar' role='progressbar' aria-valuenow='70' aria-valuemin='0' aria-valuemax='100' style='width:70%'>
+                </div>
+              </div>
+
+              <div class='joblist-pic'>
+                <img alt='' src='../images/2sigma.png'>
+              </div>
+              <div class='joblist-content'>
+                <div class='joblist-header'>
+                  <button class='btn btn-default'>Request an Interview</button>
+                  <h5>Entry Level Data Scientist</h5>
+                  <small>Two Sigma</small>
+                  <br/>
+                  <small>Est. Salary $125,000 - $177,000</small>
+                </div>
+
+                <div class='joblist-tag-row'>
+                  <div class='joblist-tag' >
+                    <i id='icons' class='fa fa-fw joblist-icon fa-map-marker'></i>Cambridge, MA
+                  </div>
+                  <div class='joblist-tag'>
+                    <i id='icons' class='fa fa-fw joblist-icon fa-calendar'></i>Applied on May 17
+                  </div>
+                  <div class='joblist-tag'>
+                    <i id='icons' class='fa fa-fw joblist-icon fa-ban'></i>Expires in 12 days
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href='#' class='list-group-item clearfix' >
+              <div class='progress joblist-progress '>
+                <div class='progress-bar' role='progressbar' aria-valuenow='70' aria-valuemin='0' aria-valuemax='100' style='width:40%'>
+                </div>
+              </div>
+              <div class='joblist-pic'>
+                <img alt='' src='../images/2sigma.png'>
+              </div>
+              <div class='joblist-content'>
+                <div class='joblist-header'>
+                  <button class='btn btn-default'>Take test now! </button>
+                  <h5>Entry Level Data Scientist</h5>
+                  <small>Two Sigma</small>
+                  <br/>
+                  <small>Est. Salary $125,000 - $177,000</small>
+                </div>
+
+                <div class='joblist-tag-row'>
+                  <div class='joblist-tag' >
+                    <i id='icons' class='fa fa-fw joblist-icon fa-map-marker'></i>Cambridge, MA
+                  </div>
+                  <div class='joblist-tag'>
+                    <i id='icons' class='fa fa-fw joblist-icon fa-calendar'></i>Applied on May 17
+                  </div>
+                  <div class='joblist-tag'>
+                    <i id='icons' class='fa fa-fw joblist-icon fa-ban'></i>Expires in 23 days
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+<!-- /.rejected jobs list-->
+        <div class='tab-pane' id='rejectedjobs' >
+          <div class='panel-group'>
+            <div class='panel-heading'>
+              <a data-toggle='collapse' href='#collapse1' class='list-group-item clearfix' >
+                  <div class='joblist-pic'>
+                    <img alt='' src='../images/2sigma.png'>
+                  </div>
+                  <div class='joblist-content'>
+                    <div class='joblist-header'>
+                      <h5>Entry Level Data Scientist</h5>
+                      <small>Two Sigma</small>
+                      <br/>
+                      <small>Est. Salary $125,000 - $177,000</small>
+                    </div>
+
+                    <div class='joblist-tag-row'>
+                      <div class='joblist-tag' >
+                        <i id='icons' class='fa fa-fw joblist-icon fa-map-marker'></i>Cambridge, MA
+                      </div>
+                      <div class='joblist-tag'>
+                        <i id='icons' class='fa fa-fw joblist-icon fa-calendar'></i>Expired on May 17
+                      </div>
+                    </div>
+                  </div>
+                </a>
+            </div>
+            <div id='collapse1' class='panel-collapse collapse'>
+              <div class='feedback'>
+                <div class='feedback-container'>
+                  <h5>Feedback</h5>
+                  <p>Areas that you are not competitive:</p>
+                  <span class='label label-default'>Default Tag</span>
+                  <span class='label label-default'>Default Tag</span>
+                  <span class='label label-default'>Default Tag</span>
+                  <div class='details'>
+                    Feedback from the employers. Not a required field. If the employer didnt type in anything, this box is invisible. 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='panel-group'>
+            <div class='panel-heading'>
+              <a data-toggle='collapse' href='#collapse2' class='list-group-item clearfix' >
+                <div class='joblist-pic'>
+                  <img alt='' src='../images/2sigma.png'>
+                </div>
+                <div class='joblist-content'>
+                  <div class='joblist-header'>
+                    <h5>Entry Level Data Scientist</h5>
+                    <small>Two Sigma</small>
+                    <br/>
+                    <small>Est. Salary $125,000 - $177,000</small>
+                  </div>
+
+                  <div class='joblist-tag-row'>
+                    <div class='joblist-tag' >
+                      <i id='icons' class='fa fa-fw joblist-icon fa-map-marker'></i>Cambridge, MA
+                    </div>
+                    <div class='joblist-tag'>
+                      <i id='icons' class='fa fa-fw joblist-icon fa-calendar'></i>Expired on May 17
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div id='collapse2' class='panel-collapse collapse'>
+              <div class='feedback'>
+                <div class='feedback-container'>
+                  <h5>Feedback</h5>
+                  <p>Areas that you are not competitive:</p>
+                  <span class='label label-default'>Default Tag</span>
+                  <span class='label label-default'>Default Tag</span>
+                  <span class='label label-default'>Default Tag</span>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+<!-- /.skipped jobs list-->
+        <div class='tab-pane' id='skippedjobs' >
+          <a href='#' class='list-group-item clearfix' >
+              <div class='joblist-pic'>
+                <img alt='' src='../images/2sigma.png'>
+              </div>
+              <div class='joblist-content'>
+                <div class='joblist-header'>
+                  <button class='btn btn-primary'>Apply</button>
+                  <h5>Entry Level Data Scientist</h5>
+                  <small>Two Sigma</small>
+                  <br/>
+                  <small>Est. Salary $125,000 - $177,000</small>
+                </div>
+
+                <div class='joblist-tag-row'>
+                  <div class='joblist-tag' >
+                    <i id='icons' class='fa fa-fw joblist-icon fa-map-marker'></i>Cambridge, MA
+                  </div>
+                  <div class='joblist-tag'>
+                    <i id='icons' class='fa fa-fw joblist-icon fa-calendar'></i>Expires in 23 days
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href='#' class='list-group-item clearfix disabled' >
+              <div class='joblist-pic'>
+                <img alt='' src='../images/2sigma.png'>
+              </div>
+              <div class='joblist-content'>
+                <div class='joblist-header'>
+                  <button class='btn disabled'>Expired</button>
+                  <h5>Entry Level Data Scientist</h5>
+                  <small>Two Sigma</small>
+                  <br/>
+                  <small>Est. Salary $125,000 - $177,000</small>
+                </div>
+
+                <div class='joblist-tag-row'>
+                  <div class='joblist-tag' >
+                    <i id='icons' class='fa fa-fw joblist-icon fa-map-marker'></i>Cambridge, MA
+                  </div>
+                  <div class='joblist-tag'>
+                    <i id='icons' class='fa fa-fw joblist-icon fa-calendar'></i>Expired on May 7
+                  </div>
+                </div>
+              </div>
+            </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+<!--      /.  Earn $1000 pop up window     -->
+  <div class='modal fade' id='referral' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>
+    <div class='modal-dialog modal-dialog-compressed  modal-dialog-invite' role='document'>
+      <div class='modal-content'>
+
+        <div class='modal-header modal-header-without-border '>
+          <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+            <span aria-hidden='true'>&times;</span>
+          </button>
+        </div>
+
+        <div class='modal-body'>
+          <div class='row'>
+            <h3 class='invite-slogan'>Refer a friend to JobApp </h3>
+            <h3 class='invite-slogan'>Earn <strong style='font-size: 30px; color: #d95e0f;'> $1000 </strong>  when they get a job!</h3>
+          </div>
+          <div class='row'>
+            <form class='form-invite clearfix'>
+              <div class='form-row'>
+                <div class='form-group col-sm-6'>
+                  <input type='firstname' class='form-control' id='inputFirstName' placeholder='First Name'/>
+                </div>
+                <div class='form-group col-sm-6'>
+                  <input type='lastname' class='form-control' id='inputLastName' placeholder='Last Name'/>
+                </div>
+              </div>
+              <div class='form-row'>
+                <div class='form-group form-group-padding col-sm-12'>
+                  <input type='emailaddress' class='form-control' id='inputEmail' placeholder='Email'/>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div><!-- /.modal-body end -->
+        <div class='modal-footer modal-footer-without-border'>
+          <button type='button' class='btn btn-primary btn-orange center-block'>Share</button> 
+        </div>
+
+      </div><!-- /.modal-content end -->
+    </div>
+  </div>
+
+
+<script src='../js/jquery-3.2.1.js'></script>
+<script src='../js/bootstrap.js'></script>
+</body> 
+</html>

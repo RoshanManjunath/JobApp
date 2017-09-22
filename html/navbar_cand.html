@@ -1,0 +1,87 @@
+<html>
+<head>
+  <title>nav cand</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' href='../css/bootstrap.min.css'>	
+  <link rel='stylesheet' href='../css/styles.css'>
+</head>
+<body>
+	<nav class='navbar navbar-default navbar-fixed-top affix-top navbar-default-bgwhite'>
+    <div class='container-fluid'>
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class='navbar-header'>
+        <button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#candidate-menu'>
+          <span class='icon-bar'></span>
+          <span class='icon-bar'></span>
+          <span class='icon-bar'></span>
+        </button>
+        <a class='navbar-brand navbar-brand-orange' href='#'>JobApp</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class=' navbar-collapse collapse' id='candidate-menu'>
+        <ul class='nav navbar-nav navbar-nav-orange navbar-right'>
+          <li><a href='#'>Jobs</a></li>
+          <li><a href='#' data-toggle='modal' data-target='#referral'>Refer Friends</a></li>
+          <li class='dropdown'>
+            <a href='#' class='dropdown-toggle' data-toggle='dropdown' >My Accout<span class='caret'></span></a>
+            <ul class='dropdown-menu dropdown-menu-cand'>
+              <li><a href='#'>View Profile</a></li>
+              <li><a href='#'>Settings</a></li>
+            </ul>
+          </li>
+          <li><a href='#'>Logout</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  
+
+<!--      /.  refer friends pop up window     -->
+  <div class='modal fade' id='referral' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>
+    <div class='modal-dialog modal-dialog-compressed  modal-dialog-invite' role='document'>
+      <div class='modal-content'>
+
+        <div class='modal-header modal-header-without-border '>
+          <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+            <span aria-hidden='true'>&times;</span>
+          </button>
+        </div>
+
+
+        <div class='modal-body'>
+          <div class='row'>
+            <h3 class='invite-slogan'>Invite a friend to JobApp </h3>
+            <h3 class='invite-slogan'>Earn <strong style='font-size: 30px; color: #d95e0f;'> $1000 </strong>when they get a job!</h3>
+          </div>
+
+          <div class='row'>
+            <form class='form-invite'>
+              <div class='form-row'>
+                <div class='form-group col-sm-6'>
+                  <input type='firstname' class='form-control' id='inputFirstName' placeholder='First Name'/>
+                </div>
+                <div class='form-group col-sm-6'>
+                  <input type='lastname' class='form-control' id='inputLastName' placeholder='Last Name'/>
+                </div>
+              </div>
+              <div class='form-row'>
+                <div class='form-group form-group-padding col-sm-12'>
+                  <input type='emailaddress' class='form-control' id='inputEmail' placeholder='Email'/>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div><!-- /.modal-body end -->
+
+        <div class='modal-footer modal-footer-without-border'>
+          <button type='button' class='btn btn-primary btn-orange center-block'>Share</button> 
+        </div>
+        
+      </div><!-- /.modal-content -->
+    </div>
+  </div>
+<script src='../js/jquery-3.2.1.js'></script>
+<script src='../js/bootstrap.js'></script>
+</body>	
+</html>

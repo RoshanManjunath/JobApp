@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' href='../css/bootstrap.min.css'> 
+  <link rel='stylesheet' href='../css/font-awesome.min.css'>
+  <link rel='stylesheet' href='../css/bootstrap-toggle.min.css'>
+  <link rel='stylesheet' href='../css/styles.css'> 
+  <title>create vacancy</title>
+</head>
+<body class='blue-gradient'>
+  <nav class='navbar navbar-default navbar-fixed-top affix-top navbar-default-bgwhite'>
+    <div class='container-fluid'>
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class='navbar-header'>
+        <button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#candidate-menu'>
+          <span class='icon-bar'></span>
+          <span class='icon-bar'></span>
+          <span class='icon-bar'></span>
+        </button>
+        <a class='navbar-brand navbar-brand-orange' href='#'>JobApp</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class=' navbar-collapse collapse' id='candidate-menu'>
+        <ul class='nav navbar-nav navbar-nav-orange navbar-right'>
+          <li class='dropdown'>
+            <a href='#' class='dropdown-toggle' data-toggle='dropdown' >My Accout<span class='caret'></span></a>
+            <ul class='dropdown-menu dropdown-menu-cand'>
+              <li><a href='#'>Candidate List</a></li>
+              <li><a href='#'>Create Vacancy</a></li>
+              <li><a href='#'>Company Profile</a></li>
+              <li role='presentation' class='divider'></li>
+              <li><a href='#'>Settings</a></li>
+            </ul>
+          </li>
+          <li><a href='#'>Logout</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
+<!-- ./  thank you  -->
+<div class='container container-list'>
+
+<!-- ./  progress bar here !!  -->
+<!-- ./  progress bar here !!  -->
+<!-- ./  progress bar here !!  -->
+<!-- ./  progress bar here !!  -->
+
+  <div class='box-with-shadow createvacancy-box'>
+    <h3>Complete Job Description</h3>
+    <p>(Add some descriptions here!!!Add some descriptions here!!!  Add some descriptions here!!!  Add some descriptions here!!!)</p>
+    <hr class='my-4' />
+    <form class='form-group'>
+      <div class='input-group col-sm-12'>
+        <span class='input-group-addon'><i class='fa fa-user fa-fw' aria-hidden='true'></i></span>
+        <input id='jobTitle' type='text' class='form-control' name='jobTitle' placeholder='Data Scientist' />
+      </div>
+
+      <div class='range-row selectbox input-group'>
+        <h5>Job Description</h5>
+        <textarea class='form-control' rows='6' id='comment' placeholder='Enter Detailed Job Description'></textarea>
+      </div>
+    </form>
+
+<!-- ./  footer !!  -->    
+    <hr class='my-4' />
+    <ul class='pager'>
+      <li class='previous'><a href='create_vacancy_fit.html'>Back</a></li>
+      <li class='next'><a href='#'>Save</a></li>
+    </ul>
+
+  </div>
+</div>
+
+<script src='../js/jquery-3.2.1.js'></script>
+<script src='../js/bootstrap-toggle.min.js'></script>
+<script src='../js/bootstrap.js'></script>
+</body> 
+</html>

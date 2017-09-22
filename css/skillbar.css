@@ -1,0 +1,77 @@
+div {
+  margin: 0;
+  padding: 0;
+}
+
+/*.progress-bar-o {
+  position: absolute;
+  left:20%;
+  top: 40%;
+  width: 300px;
+  height: 15px;
+  border: 1px solid;
+  border-radius: 4px;
+  -webkit-transform: skew(0deg);
+  -moz-transform: skew(0deg);
+  -o-transform: skew(0deg);
+  transform: skew(0deg);
+  background-color: #e6e6e6;
+}
+
+.progress-bar-i {
+  width: 200px;
+  height: 15px;
+  background-color: grey;
+}*/
+
+.container1{
+
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  padding: 20px 20px 20px 20px;
+  border-style: none;
+  background-color:white;
+  height: 830px;
+  width: 80%;
+  margin:auto;
+  justify-content: center;
+}
+
+
+.row1{
+
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.conatiner2{
+
+	background-color: #ddd;
+}
+
+
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 20px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.python {width: 90%; background-color: grey;} 
+.R {width: 75%; background-color: grey;} 
+.java {width: 50%; background-color: grey;} 
+.sql {width: 55%; background-color: grey;} 
+.big-data {width: 30%; background-color: grey;} 
+.javascript {width: 50%; background-color: grey;} 
+.hive {width: 50%; background-color: grey;} 
+.deep-learning {width: 55%; background-color: grey;} 
+.php{ width: 25%; background-color:grey; }
+.cplus{ width: 35%; background-color: grey; }
+.mysql{width: 20%; background-color: grey;}
+
+.machine-learning {width: 90%; background-color: grey;} 
+.linear-regression {width: 55%; background-color: grey;} 
+.data-modelling {width: 70%; background-color: grey;} 
+

@@ -1,0 +1,155 @@
+.nav-pills > li > a {
+	color: #777;
+	background-color: #ffffff;
+	border-radius: 2px;
+	border: 1px solid #ebebeb;
+}
+.nav-pills > li > a > span{
+    float: right;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+	color: #d95e0f;
+	background-color: #ffffff;
+}
+.badge {
+    background-color: #d95e0f;
+}
+.list-group-item:first-child {
+	border-radius:0px;
+    margin-top: 0px;
+}
+.list-group-item:last-child {
+    border-radius:0px;
+}
+
+.joblist-pic {
+	box-shadow: 0 1px 4px rgba(0,0,0,.05);
+    width: 50px;
+    height: 50px;
+    line-height: 35px;
+    vertical-align: middle;
+    border-radius: 4px;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #e9eaec;
+    border-left: 1px solid #e9eaec;
+    border-top: 1px solid #f7f8f9;
+    float: left;
+    cursor: pointer;
+    margin: 10px 10px 0 0;
+}
+.joblist-pic img{
+	max-height: 50px;
+    max-width: 50px;
+    min-height: inherit;
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 0;
+}
+.joblist-row{
+	width: 100%;
+}
+.joblist-content{
+	width: 85%;
+	float: left;
+}
+.joblist-header h5{
+	font-weight: bold;
+	width: 240px;
+	margin-right: 10px;
+}
+.joblist-header small {
+    padding: 6px 0;
+}
+.joblist-header button {
+    float: right;
+    font-size: 12px;
+    padding: 2px 6px;
+}
+.joblist-header .disabled {
+    background-color: inherit;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.joblist-header .btn-default {
+    margin-left: 5px;
+    color: gray;
+}
+.joblist-tag-row {
+    float: left;
+    margin-top: 10px;
+    color: #999;
+}
+.joblist-tag {
+	width: 150px;
+    margin-right: 24px;
+    margin-top: 5px;
+    float: left;
+    font-size: 12px;
+}
+.joblist-icon {
+    margin-right: 3px;
+    color: #999;
+}
+.joblist-progress {
+    position:absolute;
+    margin: 0 -15px;
+    width:100%;
+    border-radius:0px;
+    height: 6px;
+    bottom:0;
+    box-shadow: none;
+}
+.joblist-progress {
+	background-color: #f5f5f5; 
+	box-shadow: none;
+}
+.joblist-progress .progress-bar {
+    background-color: #d95e0f;
+    box-shadow: none;
+    float: right;
+}
+.list-group-item {
+    margin-top: 5px;
+}
+a.list-group-item:focus {
+    background-color: #fff;
+
+}
+.panel-group {
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+}
+.panel-group .panel-heading{
+    padding: 0px;
+}
+.panel-group .panel-heading > a{
+    border: none;
+}
+.feedback {
+    padding: 0 15px 15px 15px;
+    background-color: #ffffff;
+}
+.feedback-container{
+    margin: 0px;
+    padding: 10px;
+    border-top: 1px dashed #ddd;
+}
+.feedback-container p {
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.feedback .label-default {
+    font-weight: normal;
+    background-color: #eee;
+    color: #555;
+}
+.feedback .details {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+}
